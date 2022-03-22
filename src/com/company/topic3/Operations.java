@@ -1,15 +1,12 @@
 package com.company.topic3;
 
 public class Operations {
-
     	static void printAritmeticOperations(){
           int a = 10;
           int b = 15;
-
             System.out.println("Adunarea: " + (a + b));
             System.out.println( "Scaderea: " + (a - b));
             System.out.println("Inmultirea: " + (a * b));
-
         }
     	static void printLogicOperations(){
             boolean c = true;
@@ -17,12 +14,10 @@ public class Operations {
             System.out.println( "And: " + ( c && d));
             System.out.println( " Or: " + ( c || d));
             System.out.println( "Negatia: " + !( c && d));
-
         };
     	static void printRelationarOperations() {
             int z = 60;
             double x = 5;
-
             System.out.println("Egalitate: " + (z == x));
             System.out.println("Diferenta: " + (z != x));
             System.out.println(" Mai mare:" + (z > x));
@@ -30,7 +25,6 @@ public class Operations {
         static void useForAndWhile(){
            int num = 1;
            int lim = 12;
-
            while ( num <= lim) {
                System.out.print(num + " ");
                num++;
@@ -41,7 +35,5 @@ public class Operations {
                    System.out.print(i + " ");
                }
                System.out.println(" For ");
-
-
         };
 }
